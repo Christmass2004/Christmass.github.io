@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tp Cryotographie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #00ffd5;
+        }
+
+        .box {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        .result {
+            font-size: 24px;
+            color: #ffd700;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1> Chiffrement du nom MASSAMBA</h1>
+
+    <div class="box">
+        <h2> César (k = 3)</h2>
+        <p class="result">PDVVDPED</p>
+    </div>
+
+    <div class="box">
+        <h2> Vigenère (clé = KEY)</h2>
+        <p class="result">WEQCEKLE</p>
+    </div>
+
+    <div class="box">
+        <h2> Autokey (clé = K)</h2>
+        <p class="result">WMSKSMNB</p>
+    </div>
+
+</body>
+</html>
